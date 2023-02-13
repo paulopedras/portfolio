@@ -28,7 +28,7 @@
 #world {
 	animation: rotate 45s infinite linear;
  }
- 
+
  @keyframes rotate {
 	from {
 	   transform: rotate(0deg);
@@ -188,9 +188,12 @@ body.section-show .close-btn{
 #wrapper{
 	overflow-x:hidden;
 }
+
 .front-section{
+	overflow-y:hidden;
 	background:#FFF;
 }
+
 .section{
 	position:fixed;
 	left:0;
@@ -396,6 +399,8 @@ body.section-show .transition-mask:before{
 	-moz-animation: fill .4s both ease;
 	animation: fill .4s both ease;
 	background:#B7A389;
+	/* imagem de fundo da transicao */
+	/* background-image: url(../img/bddc49dd1a81a023e2f800d21cb87cb4.gif); */
 }
 
 @-webkit-keyframes fill2{
