@@ -25,6 +25,10 @@
 	
 =======================================================================*/
 
+.color-title{
+	color: #B7A389;
+}
+
 #world {
 	animation: rotate 45s infinite linear;
  }
@@ -176,7 +180,7 @@ body.section-show .close-btn{
 	letter-spacing:6px;
 	color:#333;
 	margin-top:0;
-	margin-bottom:35px;
+	margin-bottom:50px;
 	font-weight:300;
 }
 .section-header p{
@@ -461,8 +465,7 @@ body.section-show .transition-mask:before{
 
 
 .front-section{
-	padding-top:60px;
-	padding-bottom:200px;
+	padding-top:50px;
 	position:relative;
 }
 .front-heading{
@@ -541,8 +544,8 @@ body.section-show .transition-mask:before{
 
 }
 .front-person-titles > .t1{
-	left:-365px;
-	bottom:0;
+	left:-325px;
+	bottom:-50px;
 	-webkit-transform:rotate(-90deg) translateY(-100%);
 	-moz-transform:rotate(-90deg) translateY(-100%);
 	-ms-transform:rotate(-90deg) translateY(-100%);
@@ -556,13 +559,13 @@ body.section-show .transition-mask:before{
 }
 .front-person-titles > .t2{
 	top:-251px;
-	left:-180px;
+	left:-60px;
 	-webkit-transform:translateY(-100%);
 	-moz-transform:translateY(-100%);
 	-ms-transform:translateY(-100%);
 	-o-transform:translateY(-100%);
 	transform:translateY(-100%);
-	transform: rotate(-5deg) translateY(-100%);;
+	transform: rotate(5deg) translateY(-100%);;
 }
 .front-person-titles > .t3{
 	left:0;
@@ -613,7 +616,7 @@ body.section-show .transition-mask:before{
 .front-person-links > ul > li > a{
 	font-weight:bold;
 	display:block;
-	font-size:14px;
+	font-size:24px;
 	padding:30px 0;
 	cursor:pointer;
 	-webkit-transition:all .3s ease;
@@ -687,7 +690,13 @@ body.section-show .transition-mask:before{
 }
 .about-person-img > img{
 	max-width:100%;
+	margin-top: -50px;
 }
+
+.button-info{
+	margin-top: -25px;
+}
+
 .info-list{
 	list-style:none;
 	padding:0;
@@ -1810,21 +1819,21 @@ body .symp-btn{
 =======================================================================*/
 @media (max-width:992px){
 	.about-person-img{
-		margin-bottom:40px;
+		/* margin-bottom:40px; */
 		text-align:center;
 	}
 	.info-list > li{
 		width:50%;
 	}
-	.front-section{
+	/* .front-section{
 		padding-bottom:110px;
-	}
+	} */
 	.front-heading > h2{
 		font-size:50px;
 	}
 	.front-person-img{
-		height:360px;
-		width:360px;
+		height:100%;
+		width:100%;
 	}
 	.front-person-img > img{
 		-webkit-transform:rotate(-45deg) translateY(45px);
@@ -1877,16 +1886,16 @@ body .symp-btn{
 		opacity:.5;
 		display:none;
 	}
-	.front-person-links > ul > li > a:after{
+	/* .front-person-links > ul > li > a:after{
 		left:auto;
 		right:0;
-	}
+	} */
 	.front-person-links > ul > li > a:hover:before{
 		width:15px;
 	}
 	.front-person-links > ul > li > a{
 		text-align:center;
-		padding:22px 48px;
+		/* padding:22px 48px; */
 		display:block;
 		font-size:22px;
 		letter-spacing:2px;
@@ -1904,9 +1913,8 @@ body .symp-btn{
 		position:relative;
 		transform:none !important;
 		display:block;
-		margin:25px 0;
 		letter-spacing:10px;
-		font-size:16px;
+		font-size:40px;
 		text-transform:uppercase;
 		top:auto !important;
 		left:auto !important;
@@ -1917,7 +1925,7 @@ body .symp-btn{
 		margin-top:80px;
 	}
 }
-@media (max-width:768px){
+/* @media (max-width:768px){
 	
 	.front-person-links{
 		margin-top:65px;
@@ -1938,4 +1946,4 @@ body .symp-btn{
 		bottom:0;
 		left:-40px;
 	}
-}
+} */
